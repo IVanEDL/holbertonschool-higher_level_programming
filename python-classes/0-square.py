@@ -1,5 +1,6 @@
 #!/usr/bin/python3
+"""Defines a class square"""
 class Square:
-    """Class corresponding to a mf square
+    """Square: Class corresponding to a mf square
     """
     pass
