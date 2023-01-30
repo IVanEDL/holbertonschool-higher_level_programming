@@ -3,5 +3,4 @@
 
 
 class Square:
-    """Square: Class corresponding to a mf square
-    """
+    """Square: Class corresponding to a mf square"""
