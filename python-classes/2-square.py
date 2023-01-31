@@ -8,7 +8,7 @@ class Square:
         """initializes method
         """
         self.__size = size
-        if size is not int:
+        if isinstance(size, int) == False:
             raise TypeError("size must be an integer")
         if size < 0:
             raise ValueError("size must be >= 0")
