@@ -50,6 +50,9 @@ class Square:
 
     def my_print(self):
         """prints square"""
+        if self.__size == 0:
+            print("")
+            return
         for erin in range(self.__position[1]):
             print("")
         for i in range(self.__size):
@@ -57,6 +60,4 @@ class Square:
                 print(" ", end="")
             for a in range(self.__size):
                 print("#", end="")
-            print("")
-        if self.size is 0:
             print("")
