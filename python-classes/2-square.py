@@ -7,8 +7,7 @@ class Square:
     def __init__(self, size):
         """initializes method
         """
-        try:
-            self.__size = size
+        self.__size = size
         if size is not int:
             raise TypeError("size must be an integer")
         if size < 0:
