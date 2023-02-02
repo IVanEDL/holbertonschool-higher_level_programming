@@ -4,6 +4,8 @@
 
 def matrix_divided(matrix, div):
     """Divides a Matri"""
+    if type(div) != int and type(div) != float:
+        raise TypeError("div must be a number")
     if div == 0:
         raise ZeroDivisionError("division by zero")
     for i in range(0, len(matrix)):
