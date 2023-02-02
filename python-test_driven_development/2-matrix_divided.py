@@ -19,5 +19,5 @@ must have the same size")
 (list of lists) of integers/floats")
     matrix2 = []
     for elements in matrix:
-        matrix2.append(list(map(lambda alpha: alpha / div, elements)))
+        matrix2.append(list(map(lambda alpha: round((alpha / div), 2), elements)))
     return matrix2
