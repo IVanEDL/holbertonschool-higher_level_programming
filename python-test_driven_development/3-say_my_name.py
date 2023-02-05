@@ -3,6 +3,7 @@
 prints the name given
 """
 
+
 def say_my_name(first_name, last_name=""):
     """
     prints a string conformed of the given parts, first checking for
