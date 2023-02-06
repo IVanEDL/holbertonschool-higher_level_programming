@@ -12,12 +12,12 @@ class Rectangle:
     @property
     def width(self):
         """width getter"""
-        return self.width
+        return self.__width
 
     @property
     def height(self):
         """height getter"""
-        return self.height
+        return self.__height
 
     @width.setter
     def width(self, width):
@@ -36,6 +36,7 @@ class Rectangle:
             raise TypeError("height must be an integer")
         elif height < 0:
             raise ValueError("height must be >= 0")
+        self.__height = height
 
     def area(self):
         """returns area of the rectangle"""
