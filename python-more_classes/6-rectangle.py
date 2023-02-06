@@ -62,7 +62,7 @@ class Rectangle:
                 temp.append("\n")
             for p in range(self.__width):
                 temp.append("#")
-        return "".join(new)
+        return "".join(temp)
 
     def __repr__(self):
         """repr method"""
