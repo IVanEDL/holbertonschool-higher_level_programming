@@ -63,8 +63,8 @@ class Rectangle:
 
     def __repr__(self):
         """repr method"""
-        return ("Rectangle(" + str(self.__width) + ", " + str(self.__height)
-                + ")")
+        return ("Rectangle(" + str(self.__width) + ", " +
+                str(self.__height) + ")")
 
     def __del__(self):
         """message put when object deletion"""
