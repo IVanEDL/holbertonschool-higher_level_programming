@@ -62,7 +62,7 @@ class Rectangle:
             if i > 0:
                 temp.append("\n")
             for p in range(self.__width):
-                temp.append(self.print_symbol)
+                temp.append(str(self.print_symbol))
         return "".join(temp)
 
     def __repr__(self):
