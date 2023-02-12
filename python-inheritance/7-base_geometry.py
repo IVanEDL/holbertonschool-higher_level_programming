@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Base Geometry"""
+"""Defines a Rectangle over the classic means"""
 
 
 class BaseGeometry:
