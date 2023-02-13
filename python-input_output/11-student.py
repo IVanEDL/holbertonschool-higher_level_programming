@@ -15,7 +15,7 @@ class Student:
             return self.__dict__
         return {a: i for a, i in self.__dict__.items() if a in attrs}
 
-    def reload_from_json(self. json):
+    def reload_from_json(self, json):
         """replaces all attributes from student instance"""
         if len(json) > 0:
             self.first_name = json.get('first_name')
