@@ -11,6 +11,6 @@ class Student:
 
     def to_json(self, attrs=None):
         """retrieves a dictionary description of self"""
-       if attrs is None:
-           return self.__dict__
-       return {a: i for a, i in self.__dict__.items() if a in attrs}
+        if attrs is None:
+            return self.__dict__
+        return {a: i for a, i in self.__dict__.items() if a in attrs}
