@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+"""TASK 7"""
+
+
+load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
+save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
+from os import path
+from sys import argv
+
+
+if path.exists('add_item_json'):
+    my_list = load_from_json_file('add_item_json')
+else:
+    my_list = []
+for i in range (1, len(argv)):
+    my_list.append(argv[i])
+save_to_json_file(my_list, 'add_item_json')
