@@ -57,5 +57,5 @@ class Base:
         with open(f"{cls.__name__}.json", encoding='utf-8') as f:
             lists = []
             for dirks in cls.from_json_string(f.read()):
-                dirks.append(cls.create(**dirks))
+                lists.append(cls.create(**dirks))
         return lists
