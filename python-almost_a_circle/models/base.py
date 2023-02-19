@@ -48,3 +48,14 @@ class Base:
             clas = cls(1)
         clas.update(**dictionary)
         return clas
+
+    @classmethod
+    def load_from_file(cls):
+        """returns a list of instances"""
+        if not path.exists(f."cls.__name__".json):
+            return []
+        with open(f"{cls.__name__}.json", encoding='utf-8') as f:
+            lists = []
+            for dirks in cls.from_json_string(f.read()):
+                dirks.append(cls.create(**dirks))
+        return lists
