@@ -1,0 +1,1 @@
+This is a folder containing the files corresponding to the project JavaScript: Warm Up.
