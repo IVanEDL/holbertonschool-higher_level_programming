@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "holbertonschool-higher_level_programming",
+			"path": ".."
+		},
+		{
+			"name": "holbertonschool-AirBnB_clone_v2-1",
+			"path": "../../holbertonschool-AirBnB_clone_v2-1"
+		}
+	],
+	"settings": {}
+}
